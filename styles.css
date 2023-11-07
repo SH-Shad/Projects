@@ -80,3 +80,7 @@ footer {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.project-img {
+    cursor: not-allowed;
+}
