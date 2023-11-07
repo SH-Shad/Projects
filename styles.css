@@ -52,6 +52,8 @@ footer {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 5px; /* Optional: rounds the corners of the box */
+    position: relative;
+    display: inline-block;
 }
 
 .project-item img {
@@ -73,7 +75,7 @@ footer {
 }
 
 /* css2 */
-.project-item a {
+.;project-item a {
     background: #007bff;
     color: white;
     padding: 5px 10px;
@@ -82,5 +84,14 @@ footer {
 }
 
 .project-img {
-    cursor: not-allowed;
+    display: block;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: Images/Anika.jpg;
+    cursor: not-allowed;
